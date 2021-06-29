@@ -30,6 +30,14 @@ h1{
     display: inline-block;
 }
 
+ul {
+    list-style-type: none;
+  }
+
+li{
+    padding:10px;
+}
+
 #logo{
     margin:10px 0px 10px 20px;
     vertical-align: middle;
@@ -52,4 +60,63 @@ h1{
 
 .bottoni{
     padding-top: 20px;
+}
+
+#liste{
+    padding-top: 50px;
+}
+
+#Today{
+
+    padding-top:25px;
+}
+
+#Upcoming{
+
+    padding-top:25px;
+}
+
+.cose-fatte{
+    color:green;
+    border-radius: 50%;
+    border: solid green .5px;
+    padding: 1.5px;
+}
+
+.cose-non-fatte{
+    color: red;
+    border-radius: 50%;
+    border: solid red .5px;
+    padding:1.5px ;
+}
+
+.bottone{
+
+    border-radius: 25px;
+    color:white;
+    padding: 3px;
+}
+
+.bottone-editorial{
+    background-color:rgb(23, 135, 187) ;
+}
+
+.bottone-Q1goals{
+    background-color: indigo;
+}
+
+.bottone-recruiting{
+    background-color: rgb(30, 141, 30);
+}
+
+.bottone-mobile{
+    background-color: orange;
+}
+
+.bottone-website{
+    background-color: palevioletred;
+}
+
+.bottone-sales{
+    background-color: rgb(202, 218, 112);
 }
